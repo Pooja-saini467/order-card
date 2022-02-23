@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-color: #eeeeff;
+  /* background-color: hsl(225, 100%, 94%); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*   min-height: 100vh; */
+  /*   font-family: "Red Hat Display", sans-serif; */
+  /*   font-weight: 500 700 900; */
+  /*   font-size: 16px; */
+  /*   border-radius: 8px; */
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: fit-content;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow:rgb(168, 161, 161)  0px 5px;
+  /* margin: auto; */
+}
+.image {
+  /* width: 70%; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /*   position: relative; */
+}
+.ord {
+  font-weight: bold;
+  font-size: 23px;
+}
+.des {
+  font-size: 14px;
+  font-weight: normal;
+  color: hsl(0, 0%, 50%);
+}
+#bottom {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+  border: hsl(224, 23%, 55%);
+  padding: 12px 20px;
+  margin: 10px;
+  background-color: #ddddff;
+  border-radius: 5px;
+}
+
+.bot1 {
+  font-weight: bold;
+  color: black;
+}
+
+.bot2 {
+  color: #22222278;
+  font-weight: bold;
+}
+
+.bot3 {
+  background-color: #ddddff;
+  color: blue;
+  border: none;
+  text-decoration: underline;
+}
+
+/* .button { */
+/*   border: none; */
+/*   color: white; */
+/*   text-align: center; */
+/*   text-decoration: none; */
+/*   display: inline-block; */
+/*   font-weight: bold; */
+/*   font-size: 1px; */
+/*   width: 110px; */
+/*   border-radius: 16px; */
+/* } */
+
+.button {
+  width: 100%;
+}
+
+.vertical-center1 {
+  width: 85%;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  /* box-shadow: 10px black; */
+}
+
+.vertical-center2 {
+  width: 80%;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
