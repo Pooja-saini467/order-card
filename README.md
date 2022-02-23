@@ -15,7 +15,7 @@
 - It's simple order card page and it's complete responsive
 
 ## screenshot
-<img src="">
+<img src="https://github.com/Pooja-saini467/order-card/blob/master/order-summary-component-main/design/desktop-design.jpg">
 
 
 
